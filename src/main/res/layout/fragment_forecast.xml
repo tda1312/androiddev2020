@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_forecast"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForecastFragment"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/day_1"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:orientation="horizontal"
+        android:paddingTop="5px"
+        android:paddingBottom="5px">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:shadowColor="#000000"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:text="Monday"
+            android:textColor="@android:color/black"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/weather_cloudy" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="25dp"
+            android:text="Sunny \n 28-30 degrees"
+            android:textSize="13dp"
+            android:shadowColor="#000000"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/day_2"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:orientation="horizontal"
+        android:paddingTop="5px"
+        android:paddingBottom="5px">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:shadowColor="#000000"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:text="Tuesday"
+            android:textColor="@android:color/black"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/weather_sunny"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="25dp"
+            android:text="Sunny \n 28-30 degrees"
+            android:textSize="13dp"
+            android:shadowColor="#000000"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/day_3"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:orientation="horizontal"
+        android:paddingTop="5px"
+        android:paddingBottom="5px">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:shadowColor="#000000"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:text="Wednesday"
+            android:textColor="@android:color/black"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/weather_sunny"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="25dp"
+            android:text="Sunny \n 28-30 degrees"
+            android:textSize="13dp"
+            android:shadowColor="#000000"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/day_4"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:orientation="horizontal"
+        android:paddingTop="5px"
+        android:paddingBottom="5px">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:shadowColor="#000000"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:text="Thursday"
+            android:textColor="@android:color/black"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/weather_thunderrainy"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="25dp"
+            android:text="Sunny \n 28-30 degrees"
+            android:textSize="13dp"
+            android:shadowColor="#000000"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/day_5"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:orientation="horizontal"
+        android:paddingTop="5px"
+        android:paddingBottom="5px">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:shadowColor="#000000"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:text="Friday"
+            android:textColor="@android:color/black"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/weather_stormy"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="25dp"
+            android:text="Sunny \n 28-30 degrees"
+            android:textSize="13dp"
+            android:shadowColor="#000000"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/day_6"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:orientation="horizontal"
+        android:paddingTop="5px"
+        android:paddingBottom="5px">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:shadowColor="#000000"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:text="Saturday"
+            android:textColor="@android:color/black"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/weather_windy"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="25dp"
+            android:text="Sunny \n 28-30 degrees"
+            android:textSize="13dp"
+            android:shadowColor="#000000"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/day_7"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:orientation="horizontal"
+        android:paddingTop="5px"
+        android:paddingBottom="5px">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:shadowColor="#000000"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:text="Sunday"
+            android:textColor="@android:color/black"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/weather_thunderrainy"/>
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="25dp"
+            android:text="Sunny \n 28-30 degrees"
+            android:textSize="13dp"
+            android:shadowColor="#000000"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="1"
+            android:textColor="@android:color/black"/>
+
+    </LinearLayout>
+
+</LinearLayout>
