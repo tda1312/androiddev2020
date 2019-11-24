@@ -1,17 +1,13 @@
 package vn.edu.usth.weather;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentPagerAdapter;
-import androidx.viewpager.widget.PagerAdapter;
-import androidx.viewpager.widget.ViewPager;
-
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Window;
 import android.widget.TableLayout;
+import com.google.android.material.tabs.TabLayout;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.viewpager.widget.PagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 
 public class WeatherActivity extends AppCompatActivity {
 
@@ -29,6 +25,19 @@ public class WeatherActivity extends AppCompatActivity {
 
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
         viewPager.setAdapter(adapter);
+
+        TabLayout tabLayout = (TabLayout) findViewById(R.id.tab);
+        tabLayout.setupWithViewPager(viewPager);
+
+        int[] tabIcons = {
+                R.drawable.ic_me,
+                R.drawable.ic_love,
+                R.drawable.ic_france
+        };
+
+        for(int i = 0; i < tabLayout.getTabCount(); i++){
+            tabLayout.getTabAt(i).setIcon(tabIcons[i]);
+        }
     }
 
     @Override
