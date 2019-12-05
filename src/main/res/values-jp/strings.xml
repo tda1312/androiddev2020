@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">USTH Weather</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Locations -->
+    <string name="hanoi">ハノイイ</string>
+    <string name="fukuoka">福岡県</string>
+    <string name="paris">パリ</string>
+
+    <!-- Days -->
+    <string name="mon">月曜</string>
+    <string name="tue">火曜</string>
+    <string name="wed">水曜</string>
+    <string name="thu">木曜</string>
+    <string name="fri">金曜日</string>
+    <string name="sat">土曜日</string>
+    <string name="sun">日曜日</string>
+
+    <!-- Weather -->
+    <string name="freezing">凍結</string>
+    <string name="scorching">焼け付く</string>
+    <string name="cloudy">曇り</string>
+    <string name="sunny">晴れ</string>
+    <string name="windy">風が強い</string>
+    <string name="thunderrainy">雷雨</string>
+    <string name="stormy">嵐の</string>
+
+</resources>
